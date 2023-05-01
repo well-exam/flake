@@ -8,7 +8,7 @@
       home = "/home/jliu";
       createHome = true;
       passwordFile = "/persist/encrypted-passwords/jliu";
-      progams.fish.enable = true;
+      programs.fish.enable = true;
       shell = pkgs.fish;
       extraGroups = [ "wheel" "disk" "networkmanager" "libvirtd" "qemu-libvirtd" "kvm" "i2c" "plugdev" ];
       openssh.authorizedKeys.keys = [
