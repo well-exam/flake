@@ -127,7 +127,7 @@
         services.postgres = ./services/postgres.nix;
         services.openssh = ./services/openssh.nix;
         traits.workstation = ./traits/workstation.nix;
-        user.jliu = ./user/jliu;
+        users.jliu = ./users/jliu;
       };
 
       checks = forAllSystems (system:
