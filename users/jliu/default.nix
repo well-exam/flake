@@ -9,7 +9,7 @@
       createHome = true;
       passwordFile = "/persist/encrypted-passwords/jliu";
       shell = pkgs.fish;
-      extraGroupd = [ "wheel" "disk" "networkmanager" "libvirtd" "qemu-libvirtd" "kvm" "i2c" "plugdev" ];
+      extraGroups = [ "wheel" "disk" "networkmanager" "libvirtd" "qemu-libvirtd" "kvm" "i2c" "plugdev" ];
       openssh.authorizedKeys.keys = [
       ];
     };
