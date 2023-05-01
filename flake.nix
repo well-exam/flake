@@ -119,7 +119,7 @@
         traits.overlay = { nixpkgs.overlays = [ self.overlays.default ]; };
         traits.base = ./traits/base.nix;
         traits.machine = ./traits/machine.nix;
-        traits.gaming = ./traits/gamin.nix;
+        traits.gaming = ./traits/gaming.nix;
         traits.gnome = ./traits/gnome.nix;
         traits.jetbrains = ./traits/jetbrains.nix;
         traits.hardened = ./traits/hardened.nix;
