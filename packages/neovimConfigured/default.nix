@@ -2,7 +2,7 @@
 
 let
   treesitter-parsers =
-    (vimPlugins.nvim-treesitter.withPlugins (plugins: tree-sitter.allGrammars));
+    (vimPlugins.nvim-treesitter.withAllGrammars);
 in
 neovim.override {
   vimAlias = true;
