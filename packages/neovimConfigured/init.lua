@@ -46,7 +46,7 @@ if not (vim.fn.empty(vim.fn.glob(o.undodir)) > 0) then
 end
 
 -- Vim commands
-let cmd = vim.api.nvim_command
+local cmd = vim.api.nvim_command
 cmd('filetype plugin indent on')
 cmd('colorscheme dogrun')
 cmd('highlight Normal guibg=NONE ctermbg=NONE')
@@ -203,5 +203,3 @@ require'nvim-treesitter.configs'.setup {
     additional_vim_regex_highlighting = false,
   },
 }
-Footer
-
