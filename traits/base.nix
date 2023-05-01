@@ -44,6 +44,7 @@
       rnix-lsp
       graphviz
       simple-http-server
+      fish
     ];
     environment.shellAliases = { };
     environment.variables = {
