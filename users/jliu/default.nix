@@ -11,6 +11,7 @@
       shell = pkgs.fish;
       extraGroups = [ "wheel" "disk" "networkmanager" "libvirtd" "qemu-libvirtd" "kvm" "i2c" "plugdev" ];
       openssh.authorizedKeys.keys = [
+       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM031hrkFWdewXy7DpoV393InfU2A3tCXsFQaZ+DQ9eE public@jliu.net"
       ];
     };
   };
